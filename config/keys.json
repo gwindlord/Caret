@@ -11,6 +11,8 @@
   "Ctrl-N": "session:new-file",
   "Ctrl-Tab": "session:change-tab",
   "Ctrl-Shift-Tab": { "command": "session:change-tab", "argument": -1 },
+  "Alt-X": "app:exit",
+  // "Ctrl-Space": "",
   
   //Chromebook fixes
   "Ctrl-Up": { "ace": "addCursorAbove" },
@@ -31,8 +33,12 @@
   
   //Sublime compatibility
   "Ctrl-L": { "ace": "expandtoline" },
-  "Alt-Q": "sublime:wrap",
-  "Ctrl-D": "sublime:select-or-more-after",
+  // "Alt-Q": "sublime:wrap",
+  // "Alt-Shift-4": { "ace": "wordWrap" },
+  // "Alt-Q": { "command": "ace:command", "argument": "ace_toggle_wrap" },
+  //"Ctrl-D": "sublime:select-or-more-after",
+  "Ctrl-D": { "ace": "removeline" },
+  "Ctrl-Shift-C": { "ace": "duplicateSelection" },
   "Ctrl-P": { "command": "palette:open" },
   "Ctrl-Shift-P": { "command": "palette:open", "argument": "command" },
   "Ctrl-R": { "command": "palette:open", "argument": "reference" },
@@ -46,11 +52,11 @@
   "Ctrl-=": { "command": "editor:adjust-zoom", "argument": 1 },
   "Ctrl-0": { "command": "editor:default-zoom" },
   "Ctrl-J": { "ace": "joinlines" },
-  "Ctrl-Shift-K": { "ace": "removeline" },
+  //"Ctrl-Shift-K": { "ace": "removeline" },
   "Ctrl-Shift-Up": { "ace": "movelinesup" },
   "Ctrl-Shift-Down": { "ace": "movelinesdown" },
-  
+
   //dev mode
-  "Ctrl-Shift-M": "sequence:test",
+  // "Ctrl-Shift-M": "sequence:test",
   "Ctrl-.": { "command": "app:show-prompt" }
 }
