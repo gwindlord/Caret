@@ -84,7 +84,7 @@
     { "name": "haskell", "label": "Haskell", "extensions": ["hs"] },
     { "name": "haxe", "label": "haXe", "extensions": ["haxe", "hx"] },
     { "name": "html", "label": "HTML", "extensions": ["html", "htm", "htmls", "shtml", "ctp", "xhtml", "vue"] },
-    { "name": "ini", "label": "Windows INI", "extensions": ["ini", "cfg", "prefs"] },
+    { "name": "ini", "label": "Windows INI", "extensions": ["ini", "cfg", "prefs", "inf"] },
     { "name": "io", "label": "Io", "extensions": ["io"] },
     { "name": "jack", "label": "Jack", "extensions": ["jack"] },
     { "name": "java", "label": "Java", "extensions": ["java", "pde", "rules", "things", "items", "sitemap"] },
