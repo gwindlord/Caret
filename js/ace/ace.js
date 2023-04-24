@@ -12250,6 +12250,12 @@ function bindKey(win, mac) {
     return {win: win, mac: mac};
 }
 exports.commands = [{
+    name: "setUseWrapMode",
+    description: "Set wrap mode",
+    bindKey: bindKey("Alt-Z", null),
+    exec: function(editor) { editor.session.setUseWrapMode(!editor.session.getUseWrapMode()); },
+    scrollIntoView: "cursor"
+}, {
     name: "showSettingsMenu",
     bindKey: bindKey("Ctrl-,", "Command-,"),
     exec: function(editor) {
