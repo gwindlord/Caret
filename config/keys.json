@@ -33,6 +33,7 @@
   
   //Sublime compatibility
   "Ctrl-L": { "ace": "expandtoline" },
+  "Alt-Z": { "ace": "setUseWrapMode" },
   "Alt-S": {  "command": "ace:command", "argument": "sortlines" },
   // "Alt-Q": "sublime:wrap",
   // "Alt-Shift-4": { "ace": "wordWrap" },
