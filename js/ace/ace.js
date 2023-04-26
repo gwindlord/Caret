@@ -12250,12 +12250,6 @@ function bindKey(win, mac) {
     return {win: win, mac: mac};
 }
 exports.commands = [{
-    name: "setUseWrapMode",
-    description: "Set wrap mode",
-    bindKey: bindKey("Alt-Z", null),
-    exec: function(editor) { editor.session.setUseWrapMode(!editor.session.getUseWrapMode()); },
-    scrollIntoView: "cursor"
-}, {
     name: "showSettingsMenu",
     bindKey: bindKey("Ctrl-,", "Command-,"),
     exec: function(editor) {
@@ -20029,6 +20023,13 @@ exports.onMouseDown = onMouseDown;
 
 ace.define("ace/commands/multi_select_commands",["require","exports","module","ace/keyboard/hash_handler"], function(require, exports, module) {
 exports.defaultCommands = [{
+    name: "setUseWrapMode",
+    description: "Set wrap mode",
+    exec: function(editor) { editor.session.setUseWrapMode(!editor.session.getUseWrapMode()); },
+    bindKey: {win: "Alt-Z", mac: "Alt-Z"},
+    scrollIntoView: "cursor",
+    readOnly: true
+}, {
     name: "addCursorAbove",
     description: "Add cursor above",
     exec: function(editor) { editor.selectMoreLines(-1); },
