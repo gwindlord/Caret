@@ -162,7 +162,7 @@
     { "name": "verilog", "label": "Verilog", "extensions": ["v", "vh", "sv", "svh"] },
     { "name": "visualforce", "label": "Visualforce", "extensions": ["vfp", "component", "page"]},
     { "name": "vhdl", "label": "VHDL", "extensions": ["vhd", "vhdl"] },
-    { "name": "xml", "label": "XML", "extensions": ["xml", "vcf", "rdf", "rss", "wsdl", "xslt", "atom", "mathml", "mml", "xul", "xbl", "xaml"] },
+    { "name": "xml", "label": "XML", "extensions": ["xml", "vcf", "rdf", "rss", "wsdl", "xslt", "atom", "mathml", "mml", "xul", "xbl", "xaml", "opml"] },
     { "name": "xquery", "label": "XQuery", "extensions": ["xq"] },
     { "name": "yaml", "label": "YAML", "extensions": ["yaml", "yml"] }
   ]
